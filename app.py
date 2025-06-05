@@ -1,8 +1,3 @@
-f = open('data.csv', 'w')
-f.write('김,이,박')
-f.write('\n김,이,박')
-f.close()
-
 리스트 = ['삼성전자', '카카오', '네이버', '신풍제약']
 
 homework = open('homework.txt', 'w')
