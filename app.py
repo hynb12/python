@@ -1,6 +1,13 @@
-이름 = '슈퍼 에이전트 하이퍼 초필살 드래곤'
-증고차 = ['K5', 'white' , 5000]
-중고차2 = {'brand':'BMW','model': '520d','price': 5000}
-중고차2['model'] = 123
+f = open('data.csv', 'w')
+f.write('김,이,박')
+f.write('\n김,이,박')
+f.close()
 
-print(중고차2['model'])
+리스트 = ['삼성전자', '카카오', '네이버', '신풍제약']
+
+homework = open('homework.txt', 'w')
+homework.write(리스트[0])
+homework.write('\n'+리스트[1])
+homework.write('\n'+리스트[2])
+homework.write('\n'+리스트[3])
+homework.close()
